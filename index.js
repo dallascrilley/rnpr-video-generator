@@ -68,9 +68,9 @@ app.post("/process-files", upload.array("files"), (req, res) => {
     res.send("Files processed successfully");
   });
 });
-
-const PORT = 3000;
+//remove this for deployment
+/*const PORT = 3000;
 
 app.listen(PORT, () => {
   console.log(`Server listening on port ${PORT}`);
-});
+});*/
