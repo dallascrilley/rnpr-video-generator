@@ -4,7 +4,7 @@
   "description": "A script to generate a video from an image and audio file",
   "main": "process-files.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "node index.js"
   },
   "dependencies": {
     "express": "^4.17.1",
