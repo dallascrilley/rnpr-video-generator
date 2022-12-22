@@ -2,7 +2,7 @@
   "name": "video-generator",
   "version": "1.0.0",
   "description": "A script to generate a video from an image and audio file",
-  "main": "process-files.js",
+  "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
