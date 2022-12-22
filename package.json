@@ -1,0 +1,18 @@
+{
+  "name": "video-generator",
+  "version": "1.0.0",
+  "description": "A script to generate a video from an image and audio file",
+  "main": "process-files.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "fluent-ffmpeg": "^2.1.2",
+    "fs": "0.0.1-security",
+    "multer": "^1.4.4",
+    "node-fetch": "^2.6.0",
+    "node-ffprobe": "^1.0.0",
+    "nodemon": "^2.0.20"
+  }
+}
